@@ -20,7 +20,7 @@ const Item = ({   nombre,
                 <Stack mt='6' spacing='3'>
                     <Heading size='md'>{nombre}</Heading>
                         <Text fontSize='25px' align='end'>
-                        {precio}
+                        ${precio}
                         </Text>
                 </Stack>
             </CardBody>
@@ -31,9 +31,6 @@ const Item = ({   nombre,
                     <Link to={`/item/${id}`}>
                     Detalles
                     </Link>
-                    </Button>
-                    <Button variant='solid' colorScheme='gray'>
-                    Añadir al carrito
                     </Button>
                 </ButtonGroup>
             </CardFooter>
