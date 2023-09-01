@@ -18,6 +18,7 @@ const Cart = () => {
 
   const total = cart.reduce((acc, item) => acc + item.cantidad * item.precio, 0);
 
+  console.log(cart)
   if (cart.length === 0) {
     return (
       <Center className='card-center'>
@@ -41,7 +42,7 @@ const Cart = () => {
         <Card key={item.id} maxW='sm' >
           <CardBody>
             <div>
-              <img src={item.img} alt={item.nombre} />
+              <img src={item.imagen} alt={item.nombre} />
             </div>
             <Stack mt='6' spacing='3'>
               <Heading size='md'>{item.nombre}</Heading>

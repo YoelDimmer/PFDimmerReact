@@ -12,7 +12,7 @@ const ItemList = ({productos}) => {
                     nombre={p.nombre}
                     descripcion={p.descripcion}
                     precio={p.precio}
-                    img={p.img}
+                    imagen={p.imagen}
                     category={p.category}
                     />
             )

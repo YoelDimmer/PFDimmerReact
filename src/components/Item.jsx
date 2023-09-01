@@ -8,14 +8,14 @@ import '../index.css'
 const Item = ({   nombre,
     id,
     precio,
-    img}) => {
+    imagen}) => {
 
   return (
     <Center className='card-center'>
         <Card maxW='sm'>
             <CardBody>
                 <div>
-                    {img}
+                    <img src={imagen} alt={nombre} />
                 </div>
                 <Stack mt='6' spacing='3'>
                     <Heading size='md'>{nombre}</Heading>

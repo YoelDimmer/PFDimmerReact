@@ -34,6 +34,7 @@ const ItemCount = ({ producto }) => {
       id: producto.id,
       nombre: producto.nombre,
       precio: producto.precio,
+      imagen: producto.imagen,
       cantidad: counter,
     };
 
