@@ -69,7 +69,7 @@ const Cart = () => {
         Total a pagar: ${total.toFixed(2)}
       </div>
       <div style={{ padding: '10px', }}>
-      <Link to={`/purchase`} style={{ textDecoration: 'none' }}>
+      <Link to={`/sendorder`} style={{ textDecoration: 'none' }}>
         <Button colorScheme='gray' onClick={() => setCart([])}>
           Finalizar compra
         </Button>

@@ -8,6 +8,7 @@ import Cart from './components/Cart'
 import About from './components/About'
 import Contact from './components/Contact'
 import Purchase from './components/Purchase'
+import SendOrder from './components/SendOrder'
 import {ShoppingCartContext} from './context/ShoppingCartContext'
 
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route exact path="/contact" element={<Contact/>} />
         <Route exact path="/cart" element={<Cart/>} />
         <Route exact path="/purchase" element={<Purchase/>} />
+        <Route exact path="/sendorder" element={<SendOrder/>} />
         <Route exact path="/category/:category" element={<ItemListContainer/>} />
         <Route exact path="/item/:id" element={<ItemDetailContainer />} />
 
